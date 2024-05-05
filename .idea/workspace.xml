@@ -4,131 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="67de5446-6d81-4002-b984-83ef32add5df" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/example-common/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/example-common/src/main/java/com/xigua/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/example-common/src/main/java/com/xigua/example/common/model/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/example-common/src/main/java/com/xigua/example/common/service/UserService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/example-consumer/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/example-consumer/src/main/java/com/xigua/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/example-consumer/src/main/java/com/xigua/example/consumer/ConsumerExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/example-consumer/src/main/java/com/xigua/example/consumer/EasyConsumerExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/example-consumer/src/main/java/com/xigua/example/consumer/UserServiceProxy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/example-consumer/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/example-provider/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/example-provider/src/main/java/com/xigua/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/example-provider/src/main/java/com/xigua/example/provider/EasyProviderExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/example-provider/src/main/java/com/xigua/example/provider/ProviderExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/example-provider/src/main/java/com/xigua/example/provider/UserServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/example-provider/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/example-springboot-consumer/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/example-springboot-consumer/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/example-springboot-consumer/src/main/java/com/xigua/examplespringbootconsumer/ExampleServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/example-springboot-consumer/src/main/java/com/xigua/examplespringbootconsumer/ExampleSpringbootConsumerApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/example-springboot-consumer/src/test/java/com/xigua/examplespringbootconsumer/ExampleServiceImplTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/example-springboot-consumer/src/test/java/com/xigua/examplespringbootconsumer/ExampleSpringbootConsumerApplicationTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/example-springboot-provider/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/example-springboot-provider/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/example-springboot-provider/src/main/java/com/xigua/examplespringbootprovider/ExampleSpringbootProviderApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/example-springboot-provider/src/main/java/com/xigua/examplespringbootprovider/UserServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/example-springboot-provider/src/test/java/com/xigua/examplespringbootprovider/ExampleSpringbootProviderApplicationTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xigua-rpc-core/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xigua-rpc-core/src/main/java/com/xigua/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xigua-rpc-core/src/main/java/com/xigua/xiguarpc/RpcApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xigua-rpc-core/src/main/java/com/xigua/xiguarpc/bootstrap/ConsumerBootstrap.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xigua-rpc-core/src/main/java/com/xigua/xiguarpc/bootstrap/ProviderBootstrap.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xigua-rpc-core/src/main/java/com/xigua/xiguarpc/config/RegistryConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xigua-rpc-core/src/main/java/com/xigua/xiguarpc/config/RpcConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xigua-rpc-core/src/main/java/com/xigua/xiguarpc/constant/RpcConstant.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xigua-rpc-core/src/main/java/com/xigua/xiguarpc/fault/retry/FixedIntervalRetryStrategy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xigua-rpc-core/src/main/java/com/xigua/xiguarpc/fault/retry/NoRetryStrategy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xigua-rpc-core/src/main/java/com/xigua/xiguarpc/fault/retry/RetryStrategy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xigua-rpc-core/src/main/java/com/xigua/xiguarpc/fault/retry/RetryStrategyFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xigua-rpc-core/src/main/java/com/xigua/xiguarpc/fault/retry/RetryStrategyKeys.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xigua-rpc-core/src/main/java/com/xigua/xiguarpc/fault/tolerant/FailBackTolerantStrategy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xigua-rpc-core/src/main/java/com/xigua/xiguarpc/fault/tolerant/FailFastTolerantStrategy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xigua-rpc-core/src/main/java/com/xigua/xiguarpc/fault/tolerant/FailOverTolerantStrategy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xigua-rpc-core/src/main/java/com/xigua/xiguarpc/fault/tolerant/FailSafeTolerantStrategy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xigua-rpc-core/src/main/java/com/xigua/xiguarpc/fault/tolerant/TolerantStrategy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xigua-rpc-core/src/main/java/com/xigua/xiguarpc/fault/tolerant/TolerantStrategyFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xigua-rpc-core/src/main/java/com/xigua/xiguarpc/fault/tolerant/TolerantStrategyKeys.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xigua-rpc-core/src/main/java/com/xigua/xiguarpc/loadbalancer/ConsistentHashLoadBalancer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xigua-rpc-core/src/main/java/com/xigua/xiguarpc/loadbalancer/LoadBalancer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xigua-rpc-core/src/main/java/com/xigua/xiguarpc/loadbalancer/LoadBalancerFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xigua-rpc-core/src/main/java/com/xigua/xiguarpc/loadbalancer/LoadBalancerKeys.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xigua-rpc-core/src/main/java/com/xigua/xiguarpc/loadbalancer/RandomLoadBalancer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xigua-rpc-core/src/main/java/com/xigua/xiguarpc/loadbalancer/RoundRobinLoadBalancer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xigua-rpc-core/src/main/java/com/xigua/xiguarpc/model/RpcRequest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xigua-rpc-core/src/main/java/com/xigua/xiguarpc/model/RpcResponse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xigua-rpc-core/src/main/java/com/xigua/xiguarpc/model/ServiceMetaInfo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xigua-rpc-core/src/main/java/com/xigua/xiguarpc/model/ServiceRegisterInfo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xigua-rpc-core/src/main/java/com/xigua/xiguarpc/protocol/ProtocolConstant.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xigua-rpc-core/src/main/java/com/xigua/xiguarpc/protocol/ProtocolMessage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xigua-rpc-core/src/main/java/com/xigua/xiguarpc/protocol/ProtocolMessageDecoder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xigua-rpc-core/src/main/java/com/xigua/xiguarpc/protocol/ProtocolMessageEncoder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xigua-rpc-core/src/main/java/com/xigua/xiguarpc/protocol/ProtocolMessageSerializerEnum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xigua-rpc-core/src/main/java/com/xigua/xiguarpc/protocol/ProtocolMessageStatusEnum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xigua-rpc-core/src/main/java/com/xigua/xiguarpc/protocol/ProtocolMessageTypeEnum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xigua-rpc-core/src/main/java/com/xigua/xiguarpc/proxy/MockServiceProxy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xigua-rpc-core/src/main/java/com/xigua/xiguarpc/proxy/ServiceProxy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xigua-rpc-core/src/main/java/com/xigua/xiguarpc/proxy/ServiceProxyFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xigua-rpc-core/src/main/java/com/xigua/xiguarpc/registry/EtcdRegistry.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xigua-rpc-core/src/main/java/com/xigua/xiguarpc/registry/LocalRegistry.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xigua-rpc-core/src/main/java/com/xigua/xiguarpc/registry/Registry.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xigua-rpc-core/src/main/java/com/xigua/xiguarpc/registry/RegistryFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xigua-rpc-core/src/main/java/com/xigua/xiguarpc/registry/RegistryKeys.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xigua-rpc-core/src/main/java/com/xigua/xiguarpc/registry/RegistryServiceCache.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xigua-rpc-core/src/main/java/com/xigua/xiguarpc/registry/ZooKeeperRegistry.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xigua-rpc-core/src/main/java/com/xigua/xiguarpc/serializer/HessianSerializer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xigua-rpc-core/src/main/java/com/xigua/xiguarpc/serializer/JdkSerializer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xigua-rpc-core/src/main/java/com/xigua/xiguarpc/serializer/JsonSerializer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xigua-rpc-core/src/main/java/com/xigua/xiguarpc/serializer/KryoSerializer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xigua-rpc-core/src/main/java/com/xigua/xiguarpc/serializer/Serializer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xigua-rpc-core/src/main/java/com/xigua/xiguarpc/serializer/SerializerFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xigua-rpc-core/src/main/java/com/xigua/xiguarpc/serializer/SerializerKeys.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xigua-rpc-core/src/main/java/com/xigua/xiguarpc/server/HttpServer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xigua-rpc-core/src/main/java/com/xigua/xiguarpc/server/HttpServerHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xigua-rpc-core/src/main/java/com/xigua/xiguarpc/server/VertxHttpServer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xigua-rpc-core/src/main/java/com/xigua/xiguarpc/server/tcp/TcpBufferHandlerWrapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xigua-rpc-core/src/main/java/com/xigua/xiguarpc/server/tcp/TcpServerHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xigua-rpc-core/src/main/java/com/xigua/xiguarpc/server/tcp/VertxTcpClient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xigua-rpc-core/src/main/java/com/xigua/xiguarpc/server/tcp/VertxTcpServer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xigua-rpc-core/src/main/java/com/xigua/xiguarpc/utils/ConfigUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xigua-rpc-core/src/main/java/com/xigua/xiguarpc/utils/SpiLoader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xigua-rpc-core/src/main/resources/META-INF/rpc/custom/com.xigua.xiguarpc.serializer.Serializer" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xigua-rpc-core/src/main/resources/META-INF/rpc/system/com.xigua.xiguarpc.fault.retry.RetryStrategy" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xigua-rpc-core/src/main/resources/META-INF/rpc/system/com.xigua.xiguarpc.fault.tolerant.TolerantStrategy" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xigua-rpc-core/src/main/resources/META-INF/rpc/system/com.xigua.xiguarpc.loadbalancer.LoadBalancer" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xigua-rpc-core/src/main/resources/META-INF/rpc/system/com.xigua.xiguarpc.registry.Registry" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xigua-rpc-core/src/main/resources/META-INF/rpc/system/com.xigua.xiguarpc.serializer.Serializer" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xigua-rpc-core/src/main/resources/META-INF/services/com.xigua.xiguarpc.serializer.Serializer" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xigua-rpc-core/src/test/java/com/xigua/xiguarpc/fault/retry/RetryStrategyTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xigua-rpc-core/src/test/java/com/xigua/xiguarpc/loadbalancer/LoadBalancerTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xigua-rpc-core/src/test/java/com/xigua/xiguarpc/protocol/ProtocolMessageTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xigua-rpc-core/src/test/java/com/xigua/xiguarpc/registry/RegistryTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xigua-rpc-easy/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xigua-rpc-easy/src/main/java/com/xigua/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xigua-rpc-easy/src/main/java/com/xigua/xiguarpc/model/RpcRequest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xigua-rpc-easy/src/main/java/com/xigua/xiguarpc/model/RpcResponse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xigua-rpc-easy/src/main/java/com/xigua/xiguarpc/proxy/ServiceProxy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xigua-rpc-easy/src/main/java/com/xigua/xiguarpc/proxy/ServiceProxyFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xigua-rpc-easy/src/main/java/com/xigua/xiguarpc/registry/LocalRegistry.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xigua-rpc-easy/src/main/java/com/xigua/xiguarpc/serializer/JdkSerializer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xigua-rpc-easy/src/main/java/com/xigua/xiguarpc/serializer/Serializer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xigua-rpc-easy/src/main/java/com/xigua/xiguarpc/server/HttpServer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xigua-rpc-easy/src/main/java/com/xigua/xiguarpc/server/HttpServerHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xigua-rpc-easy/src/main/java/com/xigua/xiguarpc/server/VertxHttpServer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xigua-rpc-spring-boot-starter/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xigua-rpc-spring-boot-starter/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xigua-rpc-spring-boot-starter/src/main/java/com/xigua/xiguarpc/springboot/starter/annotation/EnableRpc.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xigua-rpc-spring-boot-starter/src/main/java/com/xigua/xiguarpc/springboot/starter/annotation/RpcReference.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xigua-rpc-spring-boot-starter/src/main/java/com/xigua/xiguarpc/springboot/starter/annotation/RpcService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xigua-rpc-spring-boot-starter/src/main/java/com/xigua/xiguarpc/springboot/starter/bootstrap/RpcConsumerBootstrap.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xigua-rpc-spring-boot-starter/src/main/java/com/xigua/xiguarpc/springboot/starter/bootstrap/RpcInitBootstrap.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xigua-rpc-spring-boot-starter/src/main/java/com/xigua/xiguarpc/springboot/starter/bootstrap/RpcProviderBootstrap.java" afterDir="false" />
-    </list>
+    <list default="true" id="67de5446-6d81-4002-b984-83ef32add5df" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -327,7 +203,7 @@
       <workItem from="1714611950561" duration="32263000" />
       <workItem from="1714701556078" duration="20078000" />
       <workItem from="1714880851912" duration="5304000" />
-      <workItem from="1714889927949" duration="35000" />
+      <workItem from="1714889927949" duration="856000" />
     </task>
     <servers />
   </component>
