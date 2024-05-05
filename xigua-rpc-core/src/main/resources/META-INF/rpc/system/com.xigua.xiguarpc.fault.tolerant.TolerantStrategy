@@ -1,0 +1,4 @@
+failFast=com.xigua.xiguarpc.fault.tolerant.FailFastTolerantStrategy
+failSafe=com.xigua.xiguarpc.fault.tolerant.FailSafeTolerantStrategy
+failOver=com.xigua.xiguarpc.fault.tolerant.FailOverTolerantStrategy
+failBack=com.xigua.xiguarpc.fault.tolerant.FailBackTolerantStrategy

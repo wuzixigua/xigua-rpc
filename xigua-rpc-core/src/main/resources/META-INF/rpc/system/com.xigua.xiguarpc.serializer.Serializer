@@ -1,0 +1,5 @@
+jdk=com.xigua.xiguarpc.serializer.JdkSerializer
+json=com.xigua.xiguarpc.serializer.JsonSerializer
+kryo=com.xigua.xiguarpc.serializer.KryoSerializer
+hessian=com.xigua.xiguarpc.serializer.HessianSerializer
+

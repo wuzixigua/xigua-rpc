@@ -1,0 +1,2 @@
+no=com.xigua.xiguarpc.fault.retry.NoRetryStrategy
+fixedInterval=com.xigua.xiguarpc.fault.retry.FixedIntervalRetryStrategy

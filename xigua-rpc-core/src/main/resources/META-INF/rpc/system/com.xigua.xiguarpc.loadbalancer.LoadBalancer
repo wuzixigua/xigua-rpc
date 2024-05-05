@@ -1,0 +1,3 @@
+roundRobin=com.xigua.xiguarpc.loadbalancer.RoundRobinLoadBalancer
+random=com.xigua.xiguarpc.loadbalancer.RandomLoadBalancer
+consistentHash=com.xigua.xiguarpc.loadbalancer.ConsistentHashLoadBalancer

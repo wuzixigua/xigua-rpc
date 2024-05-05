@@ -1,0 +1,2 @@
+etcd=com.xigua.xiguarpc.registry.EtcdRegistry
+zookeeper=com.xigua.xiguarpc.registry.ZooKeeperRegistry
